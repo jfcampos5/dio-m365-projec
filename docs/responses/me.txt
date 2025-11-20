@@ -1,0 +1,10 @@
+# Resultado GET /me
+{
+  "displayName": "Joelma Campos",
+  "mail": "joelma@example.com",
+  ...
+}
+
+# Observações
+- Consulta realizada em 2025-11-20 via Graph Explorer.
+- Token usado: sandbox (não armazenar tokens em repositório público).
