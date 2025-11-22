@@ -1,0 +1,10 @@
+{
+  "value": [
+    {
+      "subject": "Reunião de exemplo",
+      "start": { "dateTime": "2025-11-22T10:00:00", "timeZone": "UTC" },
+      "end": { "dateTime": "2025-11-22T11:00:00", "timeZone": "UTC" },
+      "location": { "displayName": "Sala de reunião virtual" }
+    }
+  ]
+}
