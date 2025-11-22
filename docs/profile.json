@@ -1,211 +1,28 @@
 {
-    "@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/$entity",
-    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET me/profile?$select=id",
-    "id": "profileId",
-    "account@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/account",
-    "account": [
-        {
-            "ageGroup": "Adult",
-            "countryCode": "BR",
-            "userPrincipalName": "joelmafcampos5@outlook.com",
-            "userPersona": null,
-            "allowedAudiences": "me",
-            "createdDateTime": "2025-11-20T15:38:35.2399954Z",
-            "lastModifiedDateTime": "2025-11-20T15:38:35.2399959Z",
-            "id": "027a5451-a5eb-429f-b048-1dea50b85332",
-            "isSearchable": false,
-            "originTenantInfo": null,
-            "inference": null,
-            "preferredLanguageTag": {
-                "locale": "pt-BR",
-                "displayName": "português (Brasil)"
-            },
-            "createdBy": {
-                "user": null,
-                "device": null,
-                "application": {
-                    "displayName": "Directory",
-                    "id": null
-                }
-            },
-            "lastModifiedBy": {
-                "user": null,
-                "device": null,
-                "application": {
-                    "displayName": "Directory",
-                    "id": null
-                }
-            },
-            "source": {
-                "type": [
-                    "MSA"
-                ]
-            },
-            "sources": [
-                {
-                    "sourceId": "9a3e0ce2-cf4b-477e-b3b3-df246318e251"
-                }
-            ]
-        }
-    ],
-    "addresses@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/addresses",
-    "addresses": [],
-    "anniversaries@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/anniversaries",
-    "anniversaries": [
-        {
-            "type": "birthday",
-            "date": "1987-07-21",
-            "displayName": null,
-            "allowedAudiences": "me",
-            "createdDateTime": "2025-11-20T15:38:35.2399953Z",
-            "lastModifiedDateTime": "2025-11-20T15:38:35.2399953Z",
-            "id": "7fa900f0-6593-40dc-9f7f-5c7fb8704931",
-            "isSearchable": false,
-            "inference": null,
-            "createdBy": {
-                "user": null,
-                "device": null,
-                "application": {
-                    "displayName": "Directory",
-                    "id": null
-                }
-            },
-            "lastModifiedBy": {
-                "user": null,
-                "device": null,
-                "application": {
-                    "displayName": "Directory",
-                    "id": null
-                }
-            },
-            "source": {
-                "type": [
-                    "MSA"
-                ]
-            },
-            "sources": [
-                {
-                    "sourceId": "9a3e0ce2-cf4b-477e-b3b3-df246318e251"
-                }
-            ]
-        }
-    ],
-    "educationalActivities@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/educationalActivities",
-    "educationalActivities": [],
-    "names@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/names",
-    "names": [
-        {
-            "displayName": "",
-            "first": "Joelma",
-            "initials": null,
-            "last": "Campos",
-            "languageTag": null,
-            "maiden": null,
-            "middle": null,
-            "nickname": null,
-            "suffix": null,
-            "title": null,
-            "allowedAudiences": "organization,federatedOrganizations",
-            "createdDateTime": "2025-11-20T15:38:35.2399923Z",
-            "lastModifiedDateTime": "2025-11-20T15:38:35.2399927Z",
-            "id": "136abbf5-8d64-488e-803d-933b70833eb4",
-            "isSearchable": false,
-            "pronunciation": null,
-            "inference": null,
-            "createdBy": {
-                "user": null,
-                "device": null,
-                "application": {
-                    "displayName": "Directory",
-                    "id": null
-                }
-            },
-            "lastModifiedBy": {
-                "user": null,
-                "device": null,
-                "application": {
-                    "displayName": "Directory",
-                    "id": null
-                }
-            },
-            "source": {
-                "type": [
-                    "MSA"
-                ]
-            },
-            "sources": [
-                {
-                    "sourceId": "9a3e0ce2-cf4b-477e-b3b3-df246318e251"
-                }
-            ]
-        }
-    ],
-    "emails@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/emails",
-    "emails": [
-        {
-            "address": "joelmafcampos5@outlook.com",
-            "displayName": null,
-            "type": "personal",
-            "allowedAudiences": "me",
-            "createdDateTime": "2025-11-20T15:38:35.2399966Z",
-            "lastModifiedDateTime": "2025-11-20T15:38:35.2399967Z",
-            "id": "4da91cc5-ca9f-43f0-8e6e-c7053bed9405",
-            "isSearchable": false,
-            "inference": null,
-            "createdBy": {
-                "user": null,
-                "device": null,
-                "application": {
-                    "displayName": "Directory",
-                    "id": null
-                }
-            },
-            "lastModifiedBy": {
-                "user": null,
-                "device": null,
-                "application": {
-                    "displayName": "Directory",
-                    "id": null
-                }
-            },
-            "source": {
-                "type": [
-                    "MSA"
-                ]
-            },
-            "sources": [
-                {
-                    "sourceId": "9a3e0ce2-cf4b-477e-b3b3-df246318e251"
-                }
-            ]
-        }
-    ],
-    "notes@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/notes",
-    "notes": [],
-    "interests@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/interests",
-    "interests": [],
-    "languages@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/languages",
-    "languages": [],
-    "phones@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/phones",
-    "phones": [],
-    "positions@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/positions",
-    "positions": [],
-    "projects@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/projects",
-    "projects": [],
-    "skills@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/skills",
-    "skills": [],
-    "webAccounts@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/webAccounts",
-    "webAccounts": [],
-    "websites@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/websites",
-    "websites": [],
-    "awards@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/awards",
-    "awards": [],
-    "publications@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/publications",
-    "publications": [],
-    "patents@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/patents",
-    "patents": [],
-    "certifications@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/certifications",
-    "certifications": [],
-    "extensions@odata.context": "https://graph.microsoft.com/beta/$metadata#users('joelmafcampos5%40outlook.com')/profile/extensions",
-    "extensions": []
+  "addresses": [
+    {
+      "type": "home",
+      "street": "Rua Exemplo, 123",
+      "city": "Biritinga",
+      "postalCode": "00000-000",
+      "country": "Brasil"
+    }
+  ],
+  "websites": [
+    {
+      "displayName": "LinkedIn",
+      "url": "https://linkedin.com/in/usuario-sandbox"
+    }
+  ],
+  "phones": [
+    {
+      "type": "mobile",
+      "number": "+55 71 99999-0000"
+    }
+  ],
+  "skills": [
+    "Graph API",
+    "Power Automate",
+    "Power Apps"
+  ]
 }
