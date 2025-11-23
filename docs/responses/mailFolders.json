@@ -1,0 +1,7 @@
+{
+  "value": [
+    { "displayName": "Inbox", "id": "inbox-id" },
+    { "displayName": "Sent Items", "id": "sent-id" },
+    { "displayName": "Drafts", "id": "drafts-id" }
+  ]
+}
